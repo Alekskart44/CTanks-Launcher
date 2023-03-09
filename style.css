@@ -1,0 +1,147 @@
+#pane{
+    -fx-background-image: url("images/main.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 670;
+    -fx-background-color: #0a0a0a;
+}
+.game-button-ru {
+    -fx-background-image: url("images/fight-button-ru.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-insets: 10px;
+}
+
+.game-button-ru:hover {
+    -fx-background-image: url("images/fight-button-hover-ru.png");
+    -fx-cursor: hand;
+}
+
+.game-button-ru-animation {
+    -fx-background-image: url("images/fight-button-hover-ru.png");
+    -fx-cursor: hand;
+    -fx-background-size: 100% 100%;
+    -fx-background-insets: 10px;
+}
+
+.game-button-en-animation {
+    -fx-background-image: url("images/fight-button-hover-en.png");
+    -fx-cursor: hand;
+    -fx-background-size: 100% 100%;
+    -fx-background-insets: 10px;
+}
+
+.game-button-ru-animation:pressed {
+    -fx-background-image: url("images/fight-button-active-ru.png");
+}
+
+.game-button-en {
+    -fx-background-image: url("images/fight-button-en.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-insets: 10px;
+}
+
+.game-button-en:hover {
+    -fx-background-image: url("images/fight-button-hover-en.png");
+    -fx-cursor: hand;
+}
+
+.game-button-en-animation:pressed {
+    -fx-background-image: url("images/fight-button-active-en.png");
+}
+
+.progress-bar > .track {
+    -fx-text-box-border: #8b7500;
+    -fx-control-inner-background: #728059;
+    -fx-background-insets: 6;
+    -fx-background-radius: 6, 6, 6, 6;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #ea7f02;
+}
+
+.load-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: #6c8052;
+}
+
+.locale-link {
+    -fx-text-fill: #828282;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-font-size: 25px;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-underline: false;
+}
+
+.locale-link:hover {
+    -fx-text-fill: #72d4ff;
+}
+
+.locale-link:visited {
+    -fx-text-fill: #72d4ff;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+
+.link {
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-font-size: 15px;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-underline: false;
+    -fx-font-weight: bold;
+    -fx-fill: green;
+}
+
+.link:hover {
+    -fx-text-fill: #a8e5ff;
+}
+
+.link:pressed {
+    -fx-text-fill: #24bdff;
+}
+
+.link-icon {
+	-fx-fill: #ffffff;
+}
+
+.link:hover .link-icon {
+	-fx-fill: #75d6ff;
+}
+
+.link:pressed .link-icon {
+    -fx-fill: #00a5ec;
+}
+
+.social-discord, .social-telegram, .social-facebook, .social-youtube, .social-vk  {
+    -fx-opacity: 0.8;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-border-color: transparent;
+}
+
+.social-discord:hover, .social-telegram:hover, .social-facebook:hover, .social-youtube:hover, .social-vk:hover  {
+    -fx-opacity: 1;
+}
+
+.social-discord {
+     -fx-background-image: url("images/icons/discord.png");
+}
+
+.social-facebook {
+    -fx-background-image: url("images/icons/facebook.png");
+}
+
+.social-youtube {
+    -fx-background-image: url("images/icons/youtube.png");
+}
+
+.social-vk {
+    -fx-background-image: url("images/icons/vk.png");
+}
+
+.social-telegram {
+    -fx-background-image: url("images/icons/telegram.png");
+}
